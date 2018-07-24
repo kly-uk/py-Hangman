@@ -40,7 +40,7 @@ Hangman game made with Python 3.6
 
 * A Player **Wins** either by getting all characters in the chosen word correctly, or by guessing the whole word correctly.
 
-* A Player **Loses** either by losing all of their lives.
+* A Player **Loses** by losing all of their lives.
 
 
 ## HOPE YOU ENJOY!!
