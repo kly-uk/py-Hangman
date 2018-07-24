@@ -51,7 +51,6 @@ def wildGuess():
         while take_guess != "y" and take_guess != "Y" and take_guess != "yes" and take_guess != "n" and take_guess != "N" and take_guess != "no":
             take_guess = input("--Invalid input! Please try again : ")
         if take_guess == "y" or take_guess == "Y" or take_guess == "yes":
-<<<<<<< HEAD
             while player.guess == "":
                 player.guess = input("\n--Input your wild guess... : ")
                 if player.guess.lower() == chosenWords.lower():
@@ -67,20 +66,6 @@ def wildGuess():
                     # print(f"\nGAME OVER!\nSorry that is the wrong answer. You have been hung...\nThe correct answer was:  {chosenWords}\nBetter luck next time!")
                     # player.score = 0
                     # main(".")
-=======
-            player.guess = input("\n--Input your wild guess... : ")
-            if player.guess.lower() == chosenWords.lower():
-                player.win = "True"
-                generateLines()
-                print("Wow! Your wild guess was successful. YOU WIN!\n")
-            else:
-                player.life -= 2
-                drawHangman()
-                print("Sorry that is the wrong answer! Better luck next time...  (-2 lives)\n")
-                # print(f"\nGAME OVER!\nSorry that is the wrong answer. You have been hung...\nThe correct answer was:  {chosenWords}\nBetter luck next time!")
-                # player.score = 0
-                # main(".")
->>>>>>> df78e0b64e828b79264c3f06a4ca4c885ca9a5e8
         else:
             player.guess = "(placeholder)"
             print("\n\n")
