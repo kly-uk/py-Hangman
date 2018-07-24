@@ -59,8 +59,7 @@ def wildGuess():
             else:
                 player.life -= 2
                 drawHangman()
-                generateLines()
-                print("\nSorry that is the wrong answer! Better luck next time...  (-2 lives)\n")
+                print("Sorry that is the wrong answer! Better luck next time...  (-2 lives)\n")
                 # print(f"\nGAME OVER!\nSorry that is the wrong answer. You have been hung...\nThe correct answer was:  {chosenWords}\nBetter luck next time!")
                 # player.score = 0
                 # main(".")
