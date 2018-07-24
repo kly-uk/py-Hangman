@@ -3,10 +3,9 @@ Hangman game made with Python 3.6
 
 *(Code has not been cleaned as yet! There are lots of lines of code that could be shortened and more organized unfortunately.)*
 
-               
- 
-  
-               ### About
+
+
+### About
 
 1. A large quantity of words (related to my experience in DevOps) stored inside a list called "*words*".
 
@@ -28,7 +27,8 @@ Hangman game made with Python 3.6
 
 
 
-              ### Rules
+
+### Rules
 
 * Players start with 6 lives.
 
@@ -43,4 +43,4 @@ Hangman game made with Python 3.6
 * A Player **Loses** either by losing all of their lives.
 
 
-                                            ## HOPE YOU ENJOY!!
+## HOPE YOU ENJOY!!
