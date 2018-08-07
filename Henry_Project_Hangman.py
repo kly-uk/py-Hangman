@@ -47,7 +47,7 @@ def wildGuess():
     if player.life > 0:
         player.guess = ""
         checkWin()
-        take_guess = input("Do you feel like you have an idea of what the answer could be?\nIf you guess correctly, you will automatically win the game. Otherwise, if your answer \nis wrong you lose all your remaining lives and the game will end.\n--Would you like to take a wild guess? [y/n] ... :  ")
+        take_guess = input("Do you feel like you have an idea of what the answer could be?\nIf you guess correctly, you will automatically win the game. Otherwise, if your answer \nis wrong you lose two all your remaining lives and the game will continue.\n--Would you like to take a wild guess? [y/n] ... :  ")
         while take_guess != "y" and take_guess != "Y" and take_guess != "yes" and take_guess != "n" and take_guess != "N" and take_guess != "no":
             take_guess = input("--Invalid input! Please try again : ")
         if take_guess == "y" or take_guess == "Y" or take_guess == "yes":
